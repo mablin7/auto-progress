@@ -1,7 +1,7 @@
 {
   "name": "auto-progress",
   "version": "1.0.0",
-  "description": "Aut",
+  "description": "Automatically tracks the loading progress of your page",
   "main": "index.js",
   "scripts": {
     "build": "gulp",
@@ -24,5 +24,13 @@
     "gulp-sourcemaps": "^2.6.4",
     "gulp-uglify": "^3.0.0",
     "rollup-plugin-babel": "^3.0.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/magyar123/auto-progress.git"
+  },
+  "bugs": {
+    "url": "https://github.com/magyar123/auto-progress/issues"
+  },
+  "homepage": "https://github.com/magyar123/auto-progress#readme"
 }
