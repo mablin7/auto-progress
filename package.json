@@ -1,6 +1,6 @@
 {
   "name": "auto-progress",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Automatically tracks the loading progress of your page",
   "main": "dist/index.js",
   "scripts": {
