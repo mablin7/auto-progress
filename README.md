@@ -21,7 +21,7 @@ Import it as soon as you can in your script
 **Script Tag**
 Include before any other script
 
-    <script src="" />
+    <script src="unpkg.com/auto-progress/dist/index.js" />
 
 ## Usage
 AutoProgress starts immediately after import, and searches for trackable elements on tha page (images, HTML5 media elements, XHRs, fetches).
