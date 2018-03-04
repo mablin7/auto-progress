@@ -196,8 +196,8 @@ function AutoProgress() {
   var trackers = []
 
   var events = {
-    'progress': new Event('progress'),
-    'finished': new Event('finished')
+    progress: new Event('progress'),
+    finished: new Event('finished')
   }
 
   // Update the progress
