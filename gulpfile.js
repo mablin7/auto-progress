@@ -6,7 +6,7 @@ const uglify = require('gulp-uglify');
 
 gulp.task('default', () =>
   gulp.src('src/index.js')
-    .pipe(rollup({plugins: [babel()]}, {
+    .pipe(rollup({plugins: [babel({ exclude: 'node_modules/**' })]}, {
       format: 'umd',
       name: 'AutoProgress'
     }))
@@ -21,7 +21,6 @@ gulp.task('dev', () =>
           format: 'umd',
           name: 'AutoProgress'
         }))
-        .pipe(uglify())
         .pipe(sourcemaps.write())
         .pipe(gulp.dest('dist'))
 );

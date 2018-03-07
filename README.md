@@ -5,7 +5,7 @@ A JS module that automatically tracks the loading progress of your page.
 **Features**
  - Automagically tracks loaded images, media elements, XHRs and fetches
  - Doesn't implement a visual progress bar, you can use whatever you want
- - Super lightweight (5kb minified, not gzipped)
+ - Super lightweight (5kb minified, 2kb gzipped)
  - No runtime dependencies
  - Theoretically, runs on any browser (>=IE8), thanks to the wonders of Babel and Ctrl+C-Ctrl+V polyfills
  - Great for single page apps
